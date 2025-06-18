@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #34c759, #4d9d29);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about {
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #4d9d29;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.festivals {
+    background: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.festivals h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #34c759;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    background: #4d9d29;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
